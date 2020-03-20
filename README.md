@@ -1,3 +1,3 @@
 # principal
-Página prinicipal Jesús MAría
+Página prinicipal Jesús María
 Primer prueba para conquistar Git
