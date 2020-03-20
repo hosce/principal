@@ -312,6 +312,10 @@
 							<li>Directorio</li>
 							
 						</a>
+						<a href="javascript:pagecontent('view/buzon/buzon.php');">
+							<li>Buzón de sugerencias</li>
+							
+						</a>
 					</ul>
 				</div>
 			</div>
