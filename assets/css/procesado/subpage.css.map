@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIC,yBAAY;EACX,gBAAgB,EALF,OAAO;AAQtB,wBAAW;EACV,gBAAgB,EARF,OAAO",
+"sources": ["../procesar/subpage.scss"],
+"names": [],
+"file": "subpage.css"
+}

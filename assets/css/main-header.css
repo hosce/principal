@@ -1,0 +1,389 @@
+.cabezal{
+	display: flex;
+	flex-flow: row wrap;
+	background-color: #171f3b;
+	min-height: 115px;
+}
+
+	.cabezal .imagen{
+		max-height: 115px;
+	}
+
+	.cabezal .mapa{
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+	}
+
+	.dropdown-menu{
+		background-color: #d4d4d4;
+	}
+
+	/*DROPDOWNS MENU/////////////////////////////////////////////777777*/
+
+		.dropleft .dropdown-toggle::before{
+			display: none;
+		}
+
+		.dropdown-submenu ul.dropdown-menu{
+			background-color: #b0b0b0;
+			position: relative;
+		}
+
+		.dropdown-item:active{
+			background-color: #777;
+		}
+
+		ul.dropdown-menu.show{
+			width: 100%;
+		}
+	/*dropdown menus ends//////////////////////////////////////*/
+
+
+	.bjm-menu{
+			color: #171f3b;
+			background-color: white;
+			border-color: transparent;
+			border-radius: 3px;
+			padding-left: 6px;
+			padding-right: 6px;
+			font-size: .91em;
+		}
+
+		.bjm-menu:hover{
+			
+			background-color: #d4d4d4; 
+			border-color: #171f3b;
+			border: solid;
+			border-width: .125em;
+			border-color: #d4d4d4;
+		}
+
+		.bjm-menu:focus{
+			border-radius: 3px;
+			background-color: #d4d4d4;
+			color: black;
+		}
+
+		.bjm{
+			background-color: transparent;
+			border-color: transparent;
+			border-radius: inherit;
+			padding-left: 6px;
+			padding-right: 6px;
+			font-size: .91em;
+
+		}
+
+		.bjm:hover{
+			border-radius: 3px;
+			border-color: #171f3b;
+			border: solid;
+			border-width: .125em;
+			border-color: #d4d4d4;
+		}
+
+		.bjm:focus{
+			border-radius: 3px;
+			background-color: #d4d4d4;
+			color: black;
+		}
+
+	.cabezal .redes{
+		display: flex;
+		flex-flow: column wrap;
+		padding: 0px;
+		align-items: center;
+		justify-content: center;
+	}
+
+		.rsa {
+			color: white;
+			font-size: 1.3em;
+			
+			padding-bottom: 0px;
+			padding-top: 0px;
+		}
+
+		.rsa:hover {
+			color: #d4d4d4;
+			font-size: 1.3em;
+		}
+
+@media only screen and (min-width: 1182px) {
+	.nav-menu{
+		display: none;
+	}
+	.mapa-sitio-head{
+		display: flex;
+	}
+}
+
+@media only screen and (max-width: 1181.99px) {
+	.nav-menu{
+		display: initial;
+	}
+	.mapa-sitio-head{
+		display: none;
+	}
+}		
+
+@media only screen and (min-width: 950px) {
+	.cabezal .imagen{
+		width: 30%;
+	}
+
+	.cabezal .mapa{
+		width: 65%;
+	}
+
+	.cabezal .redes{
+		width: 5%;
+		background-color: grey;
+	}
+}
+
+@media only screen and (max-width: 949.99px) {
+	.cabezal .imagen{
+		width: 50%;
+	}
+
+	.cabezal .mapa{
+		width: 40%;
+		background-color: #171f3b;
+	}
+
+	.cabezal .redes{
+		width: 10%;
+		background-color: grey;
+	}
+}
+
+@media only screen and (max-width: 629.99px) {
+	.cabezal .imagen{
+		width: 85%;
+	}
+
+	.cabezal .mapa{
+		width: 15%;
+		background-color: #171f3b;
+		justify-content: center;
+	}
+
+	.cabezal .redes{
+		width: 100%;
+		background-color: grey;
+		justify-content: space-evenly;
+		flex-flow: row nowrap;
+		align-items: center;
+	}
+}
+
+@media only screen and (min-width: 630px) {
+	.cabezal .mapa {
+		justify-content: flex-end;
+	}
+
+	.cabezal .redes{
+		background-color: #171f3b;
+	}
+}
+
+@media only screen and (max-width: 379.99px) {
+	.cabezal .imagen{
+		width: 100%;
+		order: 1;
+	}
+
+		.cabezal .imagen div{
+			padding: 0px;
+		}
+
+			.cabezal .imagen img{
+				max-height: 115px;
+			}
+
+	.cabezal .mapa{
+		width: 100%;
+		background-color: #171f3b;
+		order: 3;
+		justify-content: flex-start;
+	}
+
+		.cabezal .mapa button.bjm-menu{
+			color: white;
+			background-color: #171f3b;
+			margin-left: 25px;
+		}
+
+	.cabezal .redes{
+		width: 100%;
+		background-color: grey;
+		justify-content: space-evenly;
+		flex-flow: row nowrap;
+		align-items: center;
+		order: 2;
+	}
+}
+
+	.cabezal .redes{
+		max-height: 115px;
+		font-size: 13px;
+	}
+
+			.cabezal .imagen div img{
+				max-width: 100%;
+				height: 115px;
+			}
+
+			.escudito{
+				position: absolute; 
+				top: 0px;  
+				padding: 20px;
+				display: block;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MI NAVBAR EXPAND*/
+
+  .navbar-cu{
+    justify-content: flex-end !important;
+  }
+
+  @media (max-width: 1279.98px) {
+  .navbar-expand-cu > .container,
+  .navbar-expand-cu > .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .navbar-expand-cu {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .navbar-expand-cu .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .navbar-expand-cu .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-cu .navbar-nav .dropdown-menu-right {
+    right: 0;
+    left: auto;
+  }
+  .navbar-expand-cu .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-cu > .container,
+  .navbar-expand-cu > .container-fluid {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-cu .navbar-collapse {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+  .navbar-expand-cu .navbar-toggler {
+    display: none;
+  }
+  .navbar-expand-cu .dropup .dropdown-menu {
+    top: auto;
+    bottom: 100%;
+  }
+}
+/*MI NAVBAR EXPAND*/
+
+
+
+@media (min-width: 1280px) {
+	.navbar-nav-cu{
+		width: 821px; 
+		justify-content: flex-end;
+	}
+
+	.bjm{
+		color: white;
+	}
+
+	.bjm:hover{
+		color: white;
+	}
+
+	.bjm:focus{
+		color: black;
+	}
+
+	.evaluacion{
+		left: -109px !important;
+	}
+	
+}
+
+@media (max-width: 1279.99px) {
+	#navbarNavDropdown{
+		position: absolute;
+		background-color: rgb(230, 230, 230);
+		z-index: 1;
+		top: 40px;
+		border-radius: 3px;
+	}
+
+	.navbar-nav-cu{
+		padding-right: 12px;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		width: 229px;
+	}
+
+	.bjm{
+		color: black;
+	}
+
+	.bjm:hover{
+		border-color: transparent;
+		color: black;
+	}
+
+	.dropdown-item{
+		white-space: normal;
+	}
+}
+
+
+@media (max-width: 379.99px) {
+	#navbarNavDropdown{
+		left: 40px;
+	}
+}

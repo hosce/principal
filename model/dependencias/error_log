@@ -1,0 +1,6 @@
+[11-Mar-2020 18:40:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/adminjm/jesusmaria.gob.mx/model/dependencias/fill.php on line 47
+[12-Mar-2020 08:14:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/adminjm/jesusmaria.gob.mx/controller/exe_tramites.php on line 40
+[12-Mar-2020 08:14:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/adminjm/jesusmaria.gob.mx/model/dependencias/modal_info.php on line 6
+[12-Mar-2020 13:17:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/adminjm/jesusmaria.gob.mx/model/dependencias/fill.php on line 47
+[12-Mar-2020 13:17:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/adminjm/jesusmaria.gob.mx/controller/exe_tramites.php on line 40
+[12-Mar-2020 13:17:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/adminjm/jesusmaria.gob.mx/model/dependencias/modal_info.php on line 6

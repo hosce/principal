@@ -1,0 +1,81 @@
+h2.sub-title{
+	margin-top: 10px;
+	border-bottom: 3px solid #444;
+}
+
+.sub-container p{
+	text-align: justify;
+}
+
+.cabildo-item, .gabinete-item{
+	margin: 10px 0px;
+}
+
+	.cabildo-item .dimensions{
+		height: 450px;
+	}
+
+	.gabinete-item .dimensions{
+		height: 450px;
+	}
+
+	.dimensions{
+		border-radius: 5px;
+		text-align: center;
+		width: 330px;
+		height: auto;
+		padding: 5px;
+		box-shadow: 5px 5px 5px darkgray;
+		transition: box-shadow .5s;
+	}
+
+	.dimensions:hover{
+		box-shadow: 5px 5px 15px darkgray;
+	}
+
+		.dimensions img{
+			width: 180px;
+			padding-bottom: 10px;
+			border-radius: 5px;
+		}
+	
+
+.gradient-back{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e8e8ff+0,c1c0ea+30,c1c0ea+70,e8e8ff+100&0.4+0,0.4+100 */
+background: -moz-linear-gradient(top,  rgba(232,232,255,0.4) 0%, rgba(193,192,234,0.4) 30%, rgba(193,192,234,0.4) 70%, rgba(232,232,255,0.4) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(232,232,255,0.4) 0%,rgba(193,192,234,0.4) 30%,rgba(193,192,234,0.4) 70%,rgba(232,232,255,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(232,232,255,0.4) 0%,rgba(193,192,234,0.4) 30%,rgba(193,192,234,0.4) 70%,rgba(232,232,255,0.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66e8e8ff', endColorstr='#66e8e8ff',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.back-img{
+	width: 180px;
+	height: 240px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: -20px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.back-img-cab{
+	width: 180px;
+	height: 240px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: -45px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.back-img-bl{
+	width: 180px;
+	height: 240px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: -40px;
+	border-radius: 5px;
+	display: inline-block;
+}

@@ -1,0 +1,146 @@
+/*DIV DEL FOOTER///////////////////////////////////*/
+
+@media only screen and (max-width: 950.99px){
+	.pre-footer .mapa div{
+		width: 158px;
+	}
+
+	.pre-footer .mapa :nth-child(1){ order: 1; }
+	.pre-footer .mapa :nth-child(2){ order: 4; }
+	.pre-footer .mapa :nth-child(3){ order: 5; }
+	.pre-footer .mapa :nth-child(4){ order: 6; }
+	.pre-footer .mapa :nth-child(5){ order: 2; }
+	.pre-footer .mapa :nth-child(6){ order: 3; }
+	.pre-footer .mapa :nth-child(7){ order: 7; }
+
+}	
+
+@media only screen and (max-width: 725.99px){
+	.pre-footer .social{
+		flex-direction: row;
+		width: 100%;
+	}
+
+	.pre-footer .mapa{
+		width: 80% !important;
+	}
+
+	.pre-footer .mapa div{
+		width: 150px;
+	}
+
+}
+
+@media only screen and (max-width: 607.99px){
+	.pre-footer .emblem{
+		width: 100% !important;
+	}
+
+	.pre-footer .mapa{
+		width: 100% !important;
+	}
+}
+
+@media only screen and (max-width: 489.99px){
+	.pre-footer .mapa div{
+		padding: 5px !important;
+	}
+
+	.pre-footer .mapa :nth-child(1){ order: 7; }
+}
+
+@media only screen and (max-width: 339.99px){
+	.pre-footer .mapa div{
+		padding: 5px 1px !important;
+		width: 120px;
+	}
+}
+
+	.pre-footer{
+		display: flex;
+		flex-wrap: wrap;
+		background-color: #171f3b;
+		padding: 10px; 
+	}
+
+		.pre-footer .emblem, .pre-footer .mapa, .pre-footer .social{
+			padding: 10px;
+		}
+
+		.pre-footer .emblem{
+			display: flex;
+			width: 20%;
+			justify-content: center;
+		}
+			.pre-footer .emblem img{
+				width: auto;
+				max-height: 150px;
+				margin: auto;
+			}
+
+		.pre-footer .mapa{
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+			width: 70%;
+			color: white;
+			font-size: .7em;
+		}
+
+			.pre-footer .mapa div{
+				padding: 5px 10px;
+			}
+
+			.pre-footer .mapa div div{
+				display: inline-block;
+				width: auto;
+				text-align: left;
+			}
+
+			.pre-footer .mapa a{
+				color: white;
+			}
+
+				.mapa div span{
+					font-size: 1em;
+				}
+
+					.mapa div ul{
+						padding-left: 12px;
+					}
+
+		.social{
+			display: flex;
+			flex-flow: column wrap;
+			font-size: 1.3em;
+			width: 10%;
+			align-items: center;
+			justify-content: space-evenly;
+		}
+
+			.social a{
+				color: white;
+			}
+
+			.social a:hover{
+				color: #d4d4d4;
+			}
+
+/*PRE-FOOTER ENDS////////////////////////*/			
+
+	.footer{
+		background-color: black;
+		width: 100%;
+	}	
+
+		div.footer div{
+			text-align: center;
+		}
+
+			div.footer div p{
+				color: white;
+				margin-bottom: auto;
+				font-size: .6em;
+			}
+
+/*...DIV DEL FOOTER*/
