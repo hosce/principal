@@ -27,13 +27,21 @@
 }
 
 .img_boletin_todos{
-	background-image: url('img/boletines/718_boletin_1.jpeg');
-width: 370px;
-height: 280px;
-background-size: cover;
-background-position-y: center;
-background-repeat: no-repeat;
+	width: 370px;
+	height: 280px;
+	background-size: cover;
+	background-position-y: center;
+	background-repeat: no-repeat;
+}
 
+.img_ultimas{
+	width: 370px;
+	height: 280px;
+	background-size: cover;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	margin-top: 1em;
 }
 
 #cuadro_sala{

@@ -18,24 +18,26 @@
 				}
 			}
 		$mas = "'view/sala_prensa/ver_boletin.php?id=".$noticia['idboletin']."'";
-						
+		
+		$back_img_noticia = "'img/boletines/".$noticia['url']."'";
+
 		$tr_noticias.='
 							<div class="secondary-z">
 
 								<div class="tertiary-z">
 
-									<div>
-										<img src="img/boletines/'.$noticia['url'].'" class="img-fluid">
+									<div style="margin: auto;">
+										<div class="img_ultimas" style="background-image: url('.$back_img_noticia.');"></div>
 									</div>
 
-									<div class="r2">
+									<div class="r2 ultima">
 										<span><b>'.$noticia['titulo'].'</b></span>
 
 										<p>'.$resumen.'...</p>
 
 									</div>
 
-									<div class="r3">
+									<div class="r3" style="padding-bottom: 1em !important;">
 										<a href="javascript:pagecontent('.$mas.');" class="btn btn-primary">Ver más</a>
 									</div>
 
