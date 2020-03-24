@@ -84,7 +84,7 @@
 			          <a class="dropdown-item" href="estaticos/2020/plan/Plan_de_Desarrollo_municipal_JM_2019-2021.pdf" target="_blank">Plan de Desarrollo Municipal 2019-2021</a>
 			          <a class="dropdown-item" href="javascript:pagecontent('view/gobierno/cabildo.php');">Cabildo</a>
 			          <a class="dropdown-item" href="javascript:pagecontent('view/gobierno/gabinete.php');">Gabinete</a>
-			          
+			          <a class="dropdown-item" href="estaticos/2020/mir/MIR2020.PDF" target="_blank">Matriz de Indicadores de Resultados</a>
 			          <a class="dropdown-item" href="javascript:pagecontent('view/gobierno/directorio.php');">Directorio</a>
 			          <a class="dropdown-item" href="javascript:pagecontent('view/sala_prensa/sala_prensa.php');">Sala de Prensa</a>
 			        </div>
