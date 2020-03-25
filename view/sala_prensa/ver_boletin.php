@@ -10,7 +10,7 @@
 	<h2 class="sub-title">Boletín</h2>
 <ol class="breadcrumb">
   <li><a href="index.php">Inicio</a> /</li>
-  <li><a href="javascript:pagecontent('view/sala_prensa/sala_prensa.php');"> Sala de Prensa</a></li>
+  <li><a href="javascript:pagecontent('view/sala_prensa/sala_prensa.php');">&nbsp;Sala de Prensa</a></li>
 </ol>
 <?php
 

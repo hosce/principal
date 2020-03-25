@@ -26,6 +26,12 @@
 	left: -60px !important;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199.99px){
+	.img_ultimas{
+		width: 280px !important;
+	}	
+}
+
 .img_boletin_todos{
 	width: 370px;
 	height: 280px;

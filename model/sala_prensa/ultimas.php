@@ -31,9 +31,9 @@
 									</div>
 
 									<div class="r2 ultima">
-										<span><b>'.$noticia['titulo'].'</b></span>
+										<span class="r2_span"><b>'.$noticia['titulo'].'</b></span>
 
-										<p>'.$resumen.'...</p>
+										<p class="r2_p">'.$resumen.'...</p>
 
 									</div>
 
