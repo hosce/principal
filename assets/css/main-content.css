@@ -1,11 +1,5 @@
 
 /*CONTENIDO A STARTS/////////////////////////////////*/
-
-	@media only screen and (min-width: 1200px){
-		.r2{
-			min-height: 180px !important;
-		}
-	}
 	
 	@media only screen and (max-width: 1199.99px){
 		.content-a{
@@ -13,11 +7,6 @@
 		}
 	}
 
-	@media only screen and (min-width: 992px){
-		.r2{
-			min-height: 212px;
-		}
-	}
 
 	@media only screen and (max-width: 991.99px){
 		
@@ -49,6 +38,10 @@
 	}
 
 	@media only screen and (max-width: 479.99px){
+		.img_ultimas{
+			width: 268px !important;
+		}
+
 		.a-mainflex{
 			padding: 0px 0px !important;
 		}
