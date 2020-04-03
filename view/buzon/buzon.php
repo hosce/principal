@@ -2,56 +2,64 @@
 include('../../controller/funciones.php'); 
 include('../../model/fill_content_table.php');
 ?>
-<h2 id="linea_gris">Buzón de sugerencias</h2>
-<br>
-<p class="text-justify">
-<small>Para atender tu reporte, queja, denuncia o sugerencia, por favor ingresa tu nombre y correo electrónico en el siguiente formulario, para solicitudes de información en materia de Transparencia, por favor dar clic en el siguiente hipervínculo <<b><a href="http://transparencia.jesusmaria.gob.mx/#/" target="_blank">Ir a sitio</a></b>>.</small>
-</p>
-<br>
-<br>
-<form class="form-horizontal" method="post" id="form_buzon" style="text-align:justify">
-    <div class="form-group">
-		<label for="inputEmail3" class="col-sm-2 control-label">Nombre:</label>
-        <div class="col-sm-10">
-			<input type="text" class="form-control" id="nombre" name="nombre" required>
-        </div>
-	</div>
-    
-    <div class="form-group">
-    	<label for="inputEmail3" class="col-sm-2 control-label">Email:</label>
-    	<div class="col-sm-10">
-      		<input type="email" class="form-control" id="email" name="email">
-    	</div>
-  	</div>
-    
-    <div class="form-group">
-    	<label for="inputEmail3" class="col-sm-2 control-label">Tipo de asunto:</label>
-    	<div class="col-sm-10">
-      		<select class="form-control" id="idtipoasunto" name="idtipoasunto" required>
-            	<option value="">Seleccione</option>
-                <option value="1">Reporte</option>
-                <option value="2">Sugerencia</option>
-                <option value="3">Otro</option>
-        	</select>
-    	</div>
-  	</div>
-    
-    <div class="form-group">
-    	<label for="inputEmail3" class="col-sm-2 control-label">Descripción:</label>
-    	<div class="col-sm-10">
-      		<textarea class="form-control" id="descripcion" name="descripcion"></textarea>
-            <small><i>
-            Describa el detalle de su asunto, no olvide mencionar información importante como: el nombre del trámite, la fecha, el lugar y dependencia.</i></small>
-    	</div>
-  	</div>
+<div class="container">
+	<h2 class="sub-title">Buzón de sugerencias</h2>
+	<br>
+	<p class="text-justify">
+	<small>Para atender tu reporte, queja, denuncia o sugerencia, por favor ingresa tu nombre y correo electrónico en el siguiente formulario, para solicitudes de información en materia de Transparencia, por favor dar clic en el siguiente hipervínculo <<b><a href="http://transparencia.jesusmaria.gob.mx/#/" target="_blank">Ir a sitio</a></b>>.</small>
+	</p>
+	<br>
+	<br>
 
-    
-    <div class="form-group text-center">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </div>
-  </div>
-</form>
+	<form method="post" id="form_buzon">
+	  	
+	    <div class="form-row">
+	    
+		    <div class="form-group col-md-6">
+		      <label for="nombre">Nombre</label>
+		      <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresar nombre aquí..." required="true">
+		    </div>
+
+		    <div class="form-group col-md-6">
+		      <label for="email">Correo Electrónico</label>
+		      <input type="email" class="form-control" id="email" name="email" placeholder="Ingresar correo electrónico aquí...">
+		    </div>
+
+	    </div>
+
+	    <div class="form-row">
+
+		    <div class="form-group col-md-6">
+		    	<label for="idtipoasunto">Tipo de asunto</label>
+	      		<select class="form-control" id="idtipoasunto" name="idtipoasunto" required>
+	            	<option value="">Seleccionar</option>
+	                <option value="1">Reporte</option>
+	                <option value="2">Sugerencia</option>
+	                <option value="3">Otro</option>
+	        	</select>
+		  	</div>
+
+		  	<div class="form-group col-md-6">
+		        <label for="descripcion">Descripción</label>
+	      		<textarea class="form-control" id="descripcion" name="descripcion" placeholder="Ingrese la descripción aquí..."></textarea>
+	      		<div style="text-align: center;">
+	      			<small><i>
+		            	Describir el detalle del asunto, no olvidar mencionar información importante como: el nombre del trámite, la fecha, el lugar y dependencia.
+		        	</i></small>
+	      		</div>
+		    </div>
+
+	    </div>	
+
+	    <div class="form-row">
+			<div class="form-group" style="margin: auto; padding-bottom: 10px;" >
+		        <button type="submit" class="btn btn-primary">Enviar</button>
+		  	</div>
+	    </div>
+	  
+	</form>
+	
+</div>
 
 
 <script src="jquery-ui-1.12.1/external/jquery/jquery.js"></script>
