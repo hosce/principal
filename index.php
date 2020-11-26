@@ -93,6 +93,7 @@
 			          <div class="dropdown-menu" aria-labelledby="licitacionesLink">
 			            <a class="dropdown-item" href="javascript:pagecontent('view/licitaciones/licitaciones.php');">Obras Públicas</a>
 			          </div>
+			        </div>  
 			      </li>
 
 			      <li class="nav-item dropdown">
