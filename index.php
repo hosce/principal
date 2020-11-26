@@ -87,7 +87,12 @@
 			          <a class="dropdown-item" href="estaticos/2020/mir/MIR2020.PDF" target="_blank">Matriz de Indicadores de Resultados</a>
 			          <a class="dropdown-item" href="javascript:pagecontent('view/gobierno/directorio.php');">Directorio</a>
 			          <a class="dropdown-item" href="javascript:pagecontent('view/sala_prensa/sala_prensa.php');">Sala de Prensa</a>
-			        </div>
+			          <a class="dropdown-toggle dropdown-item" href="#" id="licitacionesLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Licitaciones
+			          </a>
+			          <div class="dropdown-menu" aria-labelledby="licitacionesLink">
+			            <a class="dropdown-item" href="javascript:pagecontent('view/licitaciones/licitaciones.php');">Obras Públicas</a>
+			          </div>
 			      </li>
 
 			      <li class="nav-item dropdown">

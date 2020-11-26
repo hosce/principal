@@ -3,7 +3,7 @@ $hostname_conexion = "localhost";  //conexion al hosting
 /*$database_conexion = "web2";  //nombre de la base de datos
 $username_conexion = "root"; //nombre de usuario
 $password_conexion = "";  //clave de usuario*/
-$database_conexion = "adminjm_jm";  //nombre de la base de datos
+$database_conexion = "principal";  //nombre de la base de datos
 $username_conexion = "root"; //nombre de usuario
 $password_conexion = "";  //clave de usuario
 
